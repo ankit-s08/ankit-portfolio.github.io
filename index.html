@@ -1,215 +1,97 @@
-<!DOCTYPE = html>
+<!DOCTYPTE = html>
 <html>
     <head>
-        <title>vpn landing page</title>
+        <title></title>
+        <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia"/> -->
         
-        <link href="style.css" rel="stylesheet"/>
         <style>
-            
-            .navbar{
-              display:flex;
-            
+            h1{
+                font-size:50px;
             }
-            .navbar-links{
-              padding:0;
-              list-style:none;
-              display:flex;
-            
-            
+            h3{
+                font-size:30px;
             }
-
-            .navbar-item{
-              margin-left:10px;
-              text-decoration:none;
-              font-family:sans-serif;
-              color:#6b6a6a;
+            *{
+                font-family: 'Sofia' , sans-serif;
+            }
+            body{
+                background-color:#ffff00d4;
             }
 
-            .navbar-logo{
-              width:50px;
-              height:auto;
-              margin-left:10px;
+            .logo{
+                width:30px;
+                height:auto;
+                border: 2px solid #000;
+                border-radius: 5px;
+                margin:30px;
+                padding:10px;
             }
-
-            .right-nav{
-              /* display:flex; */
-              /* margin-left:auto; */
+            .logo:hover{
+                filter: url(#filter-id);
             }
-            .searchbar{
+            li{
+                list-style: none;
+            }
             
-              margin-top:10px;
-              height:20px;
-              outline:none;
-              border-radius:2px;
-              border:none;
+            ul{
+                display: flex;
+                margin-left:0px;
+                padding-left:0px;
             }
-
-
-            .caraousal-container{
-              height:200px;
-              width:100%;
-              margin-left:0px;
-              border-left:0px;
-              padding:0px;
-              background-color:gray;
             
+            .main-div{
+                display:flex;
+                flex-flow:column wrap;
+                align-items:center;
+            }.connect-div{
+                display:flex;
+                flex-flow:column wrap;
+                align-items: center;
             }
-
-            .caraousal{
-              height:150px;
-              width:100%;
-              background-color:#3b3b3b;
+            
+            .CV{
+                float: right;
+                height:3em;
+                width:auto;
+                border-radius:15px;
+                margin
             }
+            
         </style>
     </head>
-    <body> 
-        <div class="navbar" class="sticky-bar">
-            
-                <img 
-                    src="VpnPage_files\logo.png" 
-                    alt="log.png"
-                    width="200px";
-                />
-            
+    <body>
+        <div class="main-div">
+            <h1>HI THERE,<br>I'M ANKIT SAHU</h1>
 
-            
-                <ul>
-                    <li>
-                        <a href="#" >What is VPN? <i class="arrow down"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" >Products <i class="arrow down"></i></a>
-                    </li>
-                    <li>
-                        <a href="#" >Support </i></a>
-                    </li>
-                    <li>
-                        <a href="#" >Blog </a>
-                    </li>
-                    <li>
-                        <a href="#" >My Account </i></a>
-                    </li>
-                    <li>
-                        <a href="#" >English </i></a>
-                    </li> 
-
-                    <button class="btn-outline">
-                        <a href="#">Get Started</a>
-                    </button>         
-                </ul>
-            
-        </div>
-
-        <div class="upper-div">
-            <h1>The VPN that just works</h1>
-            <p>Go further with the #1 trusted leader in VPN</p>
-            <button>Get ExpressVPN-></button>
-            <h5>30-DAY MONEY-BACK GURANTEE</h5>
-        </div>
-
-        <div class="mid-div-1"> 
-                    <div class="div-1">
-                        <img src="VpnPage_files\brickwall-peek-through-with-cursor-opt.avif" 
-                        alt="brickwall"
-                        width = 350px/>
-                    </div>
-                        
-                    <div class="div-2">
-                        <h2>Secure access, worldwide</h2>
-                        <p>connect realiably from anywhere, to anywhere. Our network of high-speed serverse across 94 countries puts you in control.</p>
-                        <button> Get ExpressVPN</button>
-                    </div>
-
-                    <div class="div-3">
-                        <h2>One click to a safer internet</h2>
-                        <p>Going online doesn't have to mean being exposed. Whether you're shopping from your desk or just connecting at a cafe, keep your personal information more private and secure.</p>
-                    </div>
-
-                    <div class="div-4">
-                        <img 
-                            src="VpnPage_files\unexposed-internet-lamp-opt.avif" 
-                            src="unexposed-img"
-                            width="350px"
-                            height="auto"
-                        />
-                    </div>
-
-                    <div class="div-5">
-                        <img src = "VpnPage_files\extend-your-coverage-with-a-vpn.avif" 
-                        alt="extend-img"
-                        width="350px"
-                        height="auto"/>
-                    </div>
-
-                    <div class="div-6">
-                        <h2>Use ExpressVPN on every device</h2>
-                        <p>Phone , tablet ,computer, router- no matter where you are or what devices you're using, a single ExpressVPN subsrciption has got you covered. </p>
-                        <a href="#">See all apps</a>
-                        < ul>
-                            <img src = "ExpressVPN_files\windows-logo.svg" alt="windows"/>
-                            <img src = "ExpressVPN_files\apple-logo.svg" alt="apple"/>
-                            <img src = "ExpressVPN_files\android-logo.svg" alt="android"/>
-                            <img src = "ExpressVPN_files\ios-logo.svg" alt="ios"/>
-                            <img src = "ExpressVPN_files\linux-logo.svg" alt="linux"/>
-                        </ul>
-                        
-                        <button> Get ExpressVPN</button>
-                    </div>
-            </div>
-                    
-                
-            <div class="mid-div-2"> 
-                <div>
-                    <img 
-                        src="VpnPage_files\serious-security.avif" 
-                        alt="protection-img"
-                        width="100%"
-                        />
-                    <h3>Stronger data protection</h3>
-                    <p>Take charge of your online privacy and security with best-in-class encryption.</p>
-                </div>
-                
-                <div>
-                    <img 
-                        src="VpnPage_files\be-anywhere.avif" 
-                        alt="anywhere-img"
-                        width="100%"
-                    />
-                    <h3>Works seamlessly everywhere</h3>
-                    <p>Experience the internet the way it's meant to be. On the go , or on your couch.</p>
-                </div>
-                
-                <div>
-                    <img 
-                        src="VpnPage_files\blazing-fast-speeds.avif" 
-                        alt="speeds-img"
-                        width="100%"
-                    />
-                    <h3>Lightning-quick connectivity</h3>
-                    <p>Our VPN network is built for speed, powered by next-generation technology.</p>
-                </div>
-            </div>
-
-            <a href="#">See more advantages-></a>
-
-        <div class="lower-div">
-            <h2>Ultra-fase serverse around the globe </h2>
-            <ul>
+            <div class="connect-div">
+            <h3>CONNECT WITH ME</h3>
+            <ul class="logo-list">
                 <li>
-                    <h1>160</h1>
-                    <p>locations</p>
+                    <a href="https://www.linkedin.com/in/ankit-sahu-71a111232/" target="_blank">
+                        <img class="logo" src="linkedin-logo.svg" alt="linkedin-svg"/>
+                    </a>
                 </li>
                 <li>
-                    <h1>94</h1>
-                    <p>countries</p>
+                    <a href="https://github.com/ankit-s08" target="_blank">
+                        <img class="logo" src="github-logo.svg" alt="github-svg"/>
+                    </a>
                 </li>
                 <li>
-                    <h1>infinity</h1>
-                    <p>unlimited bandwidth</p>
+                    <a href="https://twitter.com/_ankit_s08" target="_blank">
+                        <img class="logo" src="twitter-logo.svg" alt="twitter-svg"/>
+                    </a>
                 </li>
+                <li>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrkVwVWXpLtXCcXLGmgbrKTGklDjgBFkBTthvvZbvnCXXXbbWfcWfztXzFdmrVghWpsrLV" target="_blank">
+                        <img class="logo" src="icons8-gmail.svg" alt="gmail-svg"/>
+                    </a>
+                </li>
+    
             </ul>
-
-            <a href="#">See our full list of VPN Server locations ></a>
         </div>
+        </div>
+        <button class="CV">
+            download CV
+        </button>
     </body>
 </html>
